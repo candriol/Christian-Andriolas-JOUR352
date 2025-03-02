@@ -1,0 +1,33 @@
+/* 
+MY COLOR PALETTE
+Color 1 - #175e98
+Color 2 - #46a9c9
+Color 3 - #00005b
+Color 4 - #00364f
+Color 5 - #e1dfd1
+*/
+
+body {
+    background-color: #e1dfd1;
+    text-align: center;
+}
+button {
+    background-color: #00364f;
+    color: #e1dfd1;
+    font-family: "Emilys Candy", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    border: none;
+}
+button:hover {
+    background-color: #46a9c9;
+}
+h1 {
+    font-family: "Delius", serif;
+}
