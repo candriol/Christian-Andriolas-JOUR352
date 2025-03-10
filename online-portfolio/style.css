@@ -1,8 +1,67 @@
+/*
+ * My Color Palette
+Color 1 - #175e98
+Color 2 - #46a9c9
+Color 3 - #00005b
+Color 4 - #00364f
+Color 5 - #e1dfd1
+*/
+
+@media {
+    
+
 h1 {
-    color:#175e98;
-     font-family: "Playpen Sans", serif;
+    color: #175e98;
+    font-family: "Playpen Sans", serif;
 }
 
 img {
-width:100%;
+    width: 100%;
 }
+
+button {
+    width: 100px;
+    border-radius: 100px;
+    border: none;
+    padding: 10px;
+    margin: 50px;
+    font-family: "Playpen Sans", serif;
+}
+
+body {
+    background-color: #475f8f;
+}
+
+#topper
+
+
+
+#navigation {
+        margin:50px
+        text-align:center;
+        background-color:
+        color:
+            
+            h3{
+                
+    }
+    
+    h4{
+        
+    }
+    
+    
+    .jobtitle {
+        
+    }
+    
+    
+    }
+    
+    @meida {
+    (min-width:576px) 
+        h1 {
+            font-size: 100px;
+            margin: 50px;
+        }
+    } 
