@@ -1,0 +1,91 @@
+@media screen {
+  
+
+body {
+  font-family: "Alice", serif;
+  background-color: #f8f9fa;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "League Spartan", sans-serif;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  z-index: 2;
+}
+
+.subtitle {
+  font-family: "Alice", serif;
+  color: white;
+}
+
+#topper {
+  position: relative;
+  background-image: url(2017-NBA-Finals-Cleveland-Cavaliers-v-Golden-State-Warriors-scaled.webp);
+  background-size: cover;
+  height: 450px;
+  display: flex;
+}
+
+h2 {
+  font-family: "League Spartan", sans-serif;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+}
+#leadimage {
+  background-image: url(2017-NBA-Finals-Cleveland-Cavaliers-v-Golden-State-Warriors-scaled.webp);
+  background-size: cover;
+}
+
+  .jumpball image {
+ max-width: 250px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  }
+  
+figcaption {
+  font-size: 10px;
+  color: #6c757d;
+  font-style: italic;
+  margin: 5px;
+  padding: 5px;
+}
+
+  .disclaimer {
+    font-size: 12px;
+    font-style: italic;
+  }
+  a {
+    color: #008000
+  }
+
+  a hover {
+ 
+  }
+  
+  .pullquote {
+  text-align: center;
+  font-size:22px;
+  margin:auto;
+  border-top: 4px solid #008000
+  }
+  
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+}
