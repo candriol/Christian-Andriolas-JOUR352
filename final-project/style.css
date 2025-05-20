@@ -1,82 +1,120 @@
 @media screen {
-  
+  body {
+    font-family: "Alice", serif;
+    background-color: #f8f9fa;
+    font-size: 14px;
+  }
 
-body {
-  font-family: "Alice", serif;
-  background-color: #f8f9fa;
-  font-size: 14px;
-}
+  h1 {
+    font-family: "League Spartan", sans-serif;
+    color: white;
+    padding: 200px 0px 0px 0px;
+    text-align: center;
+  }
 
-h1 {
-  font-family: "League Spartan", sans-serif;
-  color: white;
-  margin: 10px;
-  text-align: center;
-  z-index: 2;
-}
+  .subtitle {
+    font-family: "Alice", serif;
+    color: white;
+    font-style: italic;
+  }
 
-.subtitle {
-  font-family: "Alice", serif;
-  color: white;
-}
+  .byline {
+    font-size: 20px;
+  }
 
-#topper {
-  position: relative;
-  background-image: url(2017-NBA-Finals-Cleveland-Cavaliers-v-Golden-State-Warriors-scaled.webp);
-  background-size: cover;
-  height: 450px;
-  display: flex;
-}
+  figcaption {
+    font-size: 12px;
+    color: #6c757d;
+    font-style: italic;
+    margin: 10px 0 30px 0;
+    padding: 5px;
+  }
 
-h2 {
-  font-family: "League Spartan", sans-serif;
-  margin-bottom: 10px;
-}
+  #topper {
+    background-image: url(2017-NBA-Finals-Cleveland-Cavaliers-v-Golden-State-Warriors-scaled.webp);
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    color: white;
+  }
 
-img {
-  width: 100%;
-}
-#leadimage {
-  background-image: url(2017-NBA-Finals-Cleveland-Cavaliers-v-Golden-State-Warriors-scaled.webp);
-  background-size: cover;
-}
+  #content {
+    width: 70%;
+    margin: auto;
+  }
+
+  h2 {
+    font-family: "League Spartan", sans-serif;
+    margin-bottom: 10px;
+    margin: 0px 0px 5px 0px;
+    padding: 10px 0px 5px 0px;
+    border-bottom: 4px solid green;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  #leadimage {
+    background-image: url(2017-NBA-Finals-Cleveland-Cavaliers-v-Golden-State-Warriors-scaled.webp);
+    background-size: cover;
+  }
 
   .jumpball image {
- max-width: 250px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
   }
-  
-figcaption {
-  font-size: 10px;
-  color: #6c757d;
-  font-style: italic;
-  margin: 5px;
-  padding: 5px;
-}
+
+  /* Historic Jump Ball Image */
+  .jumpball-historic {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid;
+  }
+
+  .subheading {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  figure.text-center {
+    text-align: center;
+    margin: 2rem auto;
+  }
+
+  h3 {
+    font-family: "Alice", serif;
+    margin: 0px 0px 5px 0px;
+    padding: 10px 0px 5px 0px;
+    border-bottom: 4px solid green;
+  }
 
   .disclaimer {
     font-size: 12px;
     font-style: italic;
   }
   a {
-    color: #008000
+    color: #008000;
   }
 
-  a hover {
- 
-  }
-  
   .pullquote {
-  text-align: center;
-  font-size:22px;
-  margin:auto;
-  border-top: 4px solid #008000
+    text-align: center;
+    font-size: 22px;
+    margin: auto;
+    border-top: 4px solid #008000;
   }
-  
 
+  .bigquote {
+    font-size: 48px;
+    color: #008000;
+    font-weight: bold;
+  }
+}
 @media (min-width: 576px) {
   h1 {
     font-size: 60px;
@@ -85,7 +123,12 @@ figcaption {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 80px;
+    font-size: 70px;
   }
 }
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 80px;
+  }
 }
